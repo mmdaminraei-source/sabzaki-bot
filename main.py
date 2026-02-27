@@ -5,6 +5,8 @@ from datetime import datetime, timedelta
 BOT_TOKEN = "8600520128:AAHWqTUajKUpPsJMci-iqu146hTmXO5XBG4"
 OWNER_ID = 5170966325
 OTHER_USER_ID = 6273003114
+import os
+TOKEN = os.getenv("8600520128:AAHWqTUajKUpPsJMci-iqu146hTmXO5XBG4")
 
 user_last_time = {}
 user_history = {}  
